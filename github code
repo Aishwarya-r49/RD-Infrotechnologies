@@ -1,0 +1,243 @@
+</div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="biography" class="biography">
+        <div class="container">
+            <div class="section-header">
+                <center>
+                <h1 style="color: darkblue;" class="section-title">Kalpana chawla's inspirational journey</h1>
+                
+                <p style="color:brown" class="section-subtitle">
+                    From a small town in India to the vastness of space, Kalpana Chawla's journey inspires millions around the world.She first flew on the 
+                    space shuttle "colombia"in 1997 as a mission specialist and "robotic arm"operator abroad.
+                </p>
+                </center>
+            </div>
+            
+            <div class="biography-content">
+                <div class="biography-cards">
+                    <div class="bio-card">
+                        <h3 style="color:blue" class="card-title">Early Life</h3>
+                        <p style="color:brown" class="card-text">
+                            Born on March 17, 1962, in Karnal, Haryana, India, Kalpana Chawla was fascinated by flying from an early age. 
+                            She earned her Bachelor's degree in Aeronautical Engineering from Punjab Engineering College in 1982, 
+                            becoming the first woman to graduate from the institution.
+                        </p>
+                    </div>
+                    
+                    <div class="bio-card">
+                        <h3 style="color:rgb(172, 27, 56)" class="card-title">Academic Excellence</h3>
+                        <p style="color:brown" class="card-text">
+                            Kalpana moved to the United States in 1982 to pursue higher education. She obtained her Master's degree 
+                            in Aerospace Engineering from the University of Texas at Arlington in 1984, followed by a Ph.D. in 
+                            Aerospace Engineering from the University of Colorado Boulder in 1988.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="biography-image">
+                    <img src="https://res.cloudinary.com/jerrick/image/upload/c_scale,f_jpg,q_auto/64bfd556193c4a001d7a6f7e.jpg"
+                         alt="Academic achievement representation" 
+                         class="bio-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Timeline -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color:darkslateblue" class="section-title">Milestones & Achievements</h2>
+                <p style="color:brown" class="section-subtitle">
+                    A timeline of remarkable achievements that made Kalpana Chawla a pioneer in space exploration.
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3 style="color:lightcoral" class="timeline-year">1988</h3>
+                        <h4 style="color:midnightblue" class="timeline-title">NASA Research Scientist</h4>
+                        <p style="color:brown" class="timeline-text">Started working at NASA Ames Research Center, specializing in computational fluid dynamics.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3 style="color:darkslategray" class="timeline-year">1994</h3>
+                        <h4 style="color:teal" class="timeline-title">NASA Astronaut Selection</h4>
+                        <p style="color:sienna" class="timeline-text">Selected as a NASA astronaut candidate, becoming the first Indian-American woman in space.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h3 style="color:darkslateblue" class="timeline-year">1997</h3>
+                        <h4 style="color:turquoise" class="timeline-title">First Space Mission - STS-87</h4>
+                        <p style="color:brown" class="timeline-text">Flew aboard Space Shuttle Columbia, conducting experiments and satellite deployment.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+                
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h3 style="color:royalblue" class="timeline-year">2003</h3>
+                        <h4 style="color:dodgerblue" class="timeline-title">Final Mission - STS-107</h4>
+                        <p style="color:brown" class="timeline-text">Served as mission specialist on Columbia's final mission, conducting scientific research.</p>
+                    </div>
+                    <div class="timeline-dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color:indigo" class="section-title">Visual Journey</h2>
+                <p style="color:brown" class="section-subtitle">
+                    Images that capture the essence of Kalpana Chawla's remarkable life and achievements.
+                </p>
+            </div>
+            
+            
+
+    <!-- Legacy -->
+    <section id="legacy" class="legacy">
+        <div class="container">
+            <div class="section-header">
+                <h2 style="color:mediumblue" class="section-title">Lasting Legacy</h2>
+                <p style="color:brown" class="section-subtitle">
+                    Kalpana Chawla's impact continues to inspire future generations of scientists, engineers, and dreamers.
+                </p>
+            </div>
+            
+            <div class="legacy-content">
+                <div class="legacy-text">
+                    <h3>Inspiring Future Generations</h3>
+                    <p>
+                        Kalpana Chawla's legacy extends far beyond her groundbreaking achievements in space exploration. 
+                        She has become a symbol of possibility for countless young people, especially women, who dare 
+                        to dream of careers in science, technology, engineering, and mathematics.
+                    </p>
+                    <p>
+                        Her life story continues to be taught in schools and universities worldwide, inspiring 
+                        students to pursue their passions regardless of societal barriers. Various scholarships, 
+                        research programs, and educational institutions have been established in her honor.
+                    </p>
+                    <blockquote class="legacy-quote">
+                        "When you look at the stars and the galaxy, you feel that you are not just from any particular 
+                        piece of land, but from the solar system."
+                    </blockquote>
+                </div>
+                <div class="legacy-image">
+                    <img src="https://images.unsplash.com/photo-1446776877081-d282a0f896e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800" 
+                         alt="Kalpana Chawla Legacy" 
+                         class="legacy-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h3 style="color:darkblue">In Memory of Kalpana Chawla</h3>
+                    <p>March 17, 1962 - February 1, 2003</p>
+                    <p style="color:brown" class="footer-quote">"The path from dreams to success does exist."</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#hero">Home</a>
+                    <a href="#biography">Biography</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#qualities">Qualities</a>
+                    <a href="#gallery">Gallery</a>
+                    <a href="#legacy">Legacy</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kalpana Chawla Tribute. Created with admiration and respect.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile Navigation Toggle
+        const hamburger = document.getElementById('hamburger');
+        const navMenu = document.getElementById('nav-menu');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navMenu.classList.remove('active');
+        }));
+
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Parallax effect for hero section
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const hero = document.getElementById('hero');
+            if (hero) {
+                hero.style.transform = `translateY(${scrolled * 0.2}px)`;
+            }
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe elements for animation
+        document.querySelectorAll('.bio-card, .quality-card, .timeline-item, .gallery-item').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
