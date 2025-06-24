@@ -1,0 +1,189 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Aishwarya – Web Developer</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Aishwarya</div>
+      <ul class="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>Hi, I'm <span>Aishwarya</span>.</h1>
+    <p>Web Developer specializing in HTML, CSS, JavaScript.</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>A motivated and detail oriented web developer imtern with a passion for creating user friendly website skilled in HTML,CSS,Javascript.Eager to learn,contribute to team projects and enhance technical skills.</p>
+  </section>
+
+
+  <section id="skills">
+    <h2>My skills</h2>
+    <p>Basics of HTML,CSS and Javascript.Design tools like canva and figma.</p>
+  </section>
+
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <h3>Project One</h3>
+        <p>It is a Tribute page witjh basc knowledge of HTML and CSS.I created a tribute page to the women I admire Kalpana chawla.I wrote about the admirable qualities and designed a visually appealing layout.</p>
+        <a href="https://rd-infrotech.neocities.org/kalpana%20website/kalpana's%20journey/kalpana's%20inspirational%20journey"
+        target="_blank">view my project</a>
+      </div>
+      <div class="project-card">
+        <h3>Project Two</h3>
+        <p>It is a landing page.With the basic knowledge of HTML and CSS I created a landing page.Through this project I learned to create columns,divide sections,arrange items.</p>
+        <a href="https://rd-infrotech.neocities.org/landing%20page/"
+        target="_blank">view my project</a>
+      </div>
+      <!-- Add more project-card divs as needed -->
+    </div>
+  </section>
+
+  <section id="resume">
+    <h2>Resume</h2>
+    <p>My Resume:</p> <a href="https://in.docworkspace.com/d/sIPCihpSbAuua6cIG?sa=601.1074"
+    target="_blank">view my resume</a>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="aishwarya492006@gmail.com">aishwarya492006@gmail.com</a></p>
+    <!-- Add any social links here -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 R.Aishwarya</p>
+  </footer>
+</body>
+</html>
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background: #713131;
+  color: #060505;
+}
+
+header {
+  background: #dab0cb;
+  color: #0a0a0a;
+  padding: 1rem 0;
+}
+
+nav {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+}
+
+.menu li + li {
+  margin-left: 1rem;
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #ff6b6b;
+}
+
+.hero {
+  background: #dde;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.hero h1 span {
+  color: #842525;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #ff6b6b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+section {
+  max-width: 1000px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.project-card {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #222;
+  color: #fff;
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  .menu {
+    margin-top: 0.5rem;
+    flex-direction: column;
+  }
+  .menu li + li {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+}
