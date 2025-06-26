@@ -1,189 +1,93 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>Aishwarya – Web Developer</title>
-  <link rel="stylesheet" href="style.css" />
+  
+  <title>Tribute to Sunita Williams</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #080113;
+      color: #333;
+    }
+    header {
+      background: #080113;
+      color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+    header h1 { margin: 0; }
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    .photo {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    h2 { color: #005288; }
+    ul {
+      list-style-type: disc;
+      margin-left: 1.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem 0;
+      background: #eee;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <nav>
-      <div class="logo">Aishwarya</div>
-      <ul class="menu">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#resume">Resume</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Sunita Williams</h1>
+    <p>Pioneering NASA Astronaut & Record‑Breaking Space Explorer</p>
   </header>
 
-  <section class="hero" id="hero">
-    <h1>Hi, I'm <span>Aishwarya</span>.</h1>
-    <p>Web Developer specializing in HTML, CSS, JavaScript.</p>
-    <a href="#projects" class="btn">View Projects</a>
-  </section>
+  <main>
+    <img src="C:\Users\RAVICHANDRAN\Downloads\Sunita_Williams_image.jpg" class="photo">
 
-  <section id="about">
-    <h2>About Me</h2>
-    <p>A motivated and detail oriented web developer imtern with a passion for creating user friendly website skilled in HTML,CSS,Javascript.Eager to learn,contribute to team projects and enhance technical skills.</p>
-  </section>
+    <section>
+      <h2> Early Life & Education</h2>
+      <p>Born September 19, 1965 in Euclid, Ohio, Sunita Lyn Williams graduated from the U.S. Naval Academy (B.S. Physical Science, 1987), followed by an M.S. in Engineering Management from Florida Tech in 1995.</p>
+    </section>
 
+    <section>
+      <h2> Naval Career</h2>
+      <ul>
+        <li>Commissioned in 1987 as a Navy Ensign, designated naval aviator in 1989.</li>
+        <li>Logged over 3,000 flight hours across 30+ aircraft.</li>
+        <li>Supported operations such as Desert Shield and Hurricane Andrew relief.</li>
+      </ul>
+    </section>
 
-  <section id="skills">
-    <h2>My skills</h2>
-    <p>Basics of HTML,CSS and Javascript.Design tools like canva and figma.</p>
-  </section>
+    <section>
+      <h2> NASA & Space Missions</h2>
+      <ul>
+        <li>Selected by NASA in 1998; trained in shuttle and ISS systems.</li>
+        <li>Served on three ISS missions (2006–2007, 2012, 2024–2025); 608 total days in space .</li>
+        <li>First woman to run a marathon in space (Boston Marathon on ISS treadmill, 2007).</li>
+        <li>Completed 9 EVAs (spacewalks) totaling 62 h 6 min—the most cumulative EVA time of any female astronaut.</li>
+        <li>Piloted Boeing’s first crewed Starliner flight in 2024 and returned via SpaceX's Crew‑9 in March 2025.</li>
+      </ul>
+    </section>
 
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <h3>Project One</h3>
-        <p>It is a Tribute page witjh basc knowledge of HTML and CSS.I created a tribute page to the women I admire Kalpana chawla.I wrote about the admirable qualities and designed a visually appealing layout.</p>
-        <a href="https://rd-infrotech.neocities.org/kalpana%20website/kalpana's%20journey/kalpana's%20inspirational%20journey"
-        target="_blank">view my project</a>
-      </div>
-      <div class="project-card">
-        <h3>Project Two</h3>
-        <p>It is a landing page.With the basic knowledge of HTML and CSS I created a landing page.Through this project I learned to create columns,divide sections,arrange items.</p>
-        <a href="https://rd-infrotech.neocities.org/landing%20page/"
-        target="_blank">view my project</a>
-      </div>
-      <!-- Add more project-card divs as needed -->
-    </div>
-  </section>
-
-  <section id="resume">
-    <h2>Resume</h2>
-    <p>My Resume:</p> <a href="https://in.docworkspace.com/d/sIPCihpSbAuua6cIG?sa=601.1074"
-    target="_blank">view my resume</a>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="aishwarya492006@gmail.com">aishwarya492006@gmail.com</a></p>
-    <!-- Add any social links here -->
-  </section>
+    <section>
+      <h2> Awards & Legacy</h2>
+      <p>Williams has been honored with the Defense Superior Service Medal, Legion of Merit, Navy Commendation/Service Medals, and is an advocate for STEM and women in science.</p>
+      <p>Her upbringing and traditions commemorate her Indian and Slovenian heritage, including carrying cultural items to space.</p>
+    </section>
+  </main>
 
   <footer>
-    <p>&copy; 2025 R.Aishwarya</p>
+    <p>&copy; 2025 Tribute Page </p>
   </footer>
 </body>
 </html>
-/* style.css */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: sans-serif;
-}
-
-body {
-  line-height: 1.6;
-  background: #713131;
-  color: #060505;
-}
-
-header {
-  background: #dab0cb;
-  color: #0a0a0a;
-  padding: 1rem 0;
-}
-
-nav {
-  display: flex;
-  max-width: 1000px;
-  margin: auto;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.menu {
-  list-style: none;
-  display: flex;
-}
-
-.menu li + li {
-  margin-left: 1rem;
-}
-
-.menu a {
-  color: #fff;
-  text-decoration: none;
-  transition: color 0.3s;
-}
-
-.menu a:hover {
-  color: #ff6b6b;
-}
-
-.hero {
-  background: #dde;
-  height: 70vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 0 1rem;
-}
-
-.hero h1 span {
-  color: #842525;
-}
-
-.btn {
-  display: inline-block;
-  margin-top: 1rem;
-  background: #ff6b6b;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 4px;
-}
-
-section {
-  max-width: 1000px;
-  margin: 2rem auto;
-  padding: 0 1rem;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1rem;
-}
-
-.project-card {
-  background: #fff;
-  padding: 1rem;
-  border-radius: 4px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-footer {
-  text-align: center;
-  padding: 1rem 0;
-  background: #222;
-  color: #fff;
-}
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
-  nav {
-    flex-direction: column;
-  }
-  .menu {
-    margin-top: 0.5rem;
-    flex-direction: column;
-  }
-  .menu li + li {
-    margin-left: 0;
-    margin-top: 0.5rem;
-  }
-}
